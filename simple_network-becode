@@ -1,8 +1,27 @@
-Non prenon : Aymeric Simonet
+Patron : Tony stark
+Societer de : stark-nerworking
+Numéro d'entreprise : BE0.1.1.1.1.1.1.1.1.1
+Adresse : rue de stark 16 1000 Bruxelles
+Non,prenon  de l'instalateur : Aymeric Simonet
+email: aymeric@starkNet.com
+
+BeCode (ASBL) 
+Patron : Ludovic Patho 
+Email :  ludovic@becode.org
+Numéro d’entreprise BE 0664.802.168
+Cantersteen 12 1000 Bruxelles
+Activité principale : Formation professionnelle
+
+
+Suite à la création d’un cachiez de charge, créer conjointement avec Becode , nous allons réaliser une simulation de 
+LAN dans le bâtiment Becode situer dans les locaux de Becode Bruxelles en plusieurs phases via le simulateur packet tracer  !
+Phase 1 une installation du matériel informatique ,phase 2 une connexion au réseau Internet avec les  serveurs de Facebook, 
+phase 3 teste du réseau du bureau becode et seconde teste les connexions au serveurs de Facebook avec la fonction ping !
 
 Projet : building_a_simple_network
-Non du réseau : becode network 
-Création d'un : Lan  pour Becode
+Non du réseau : becode BX network 
+Cachier de charge  Becode du 20/04/2022
+Création d'un : Lan  pour Becode 
 Team challenge : Solo  phase 1 et pour la phase 2 avec l'aide du colègue : Robin Gillard
 Mission crée un simple réseau dans les bureaux de Becode  avec une connection internet ves les serveurs de facebook !
 
@@ -36,6 +55,19 @@ instalation : switch 2960 -24 TT
 Instalation : serveur (pt) dns : Adresse IPv4 :(200.1.1.2) Default Gateway  : (200.1.1.1)  Adresse mac :000B.BEA9.46C4
 Instalation : serveur (pt) facebook Adresse Ip : (200.1.1.3) Default Gateway  : (200.1.1.1 )  Adresse mac : 255.255.255.0
 Cable de connection :  Copper Straight Trough
+
+
+phase 3 testes : Reussie 
+Commande prompt 1) PC-Robert commande prompt :ping 192.168.1.12 vers PC-Renaud
+Commande prompt 2) PC-Camille commande prompt :ping 192.168.1.12 vers PC-Renaud
+Commande prompt 3) PC-renaud commande prompt :ping 192.168.1.10 vers PC-Robert
+Commande prompt 4) PC-Camille commande prompt :ping www.facebook.com vers le serveur-facebook
+
+
+
+
+
+
 
 
 
