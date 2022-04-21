@@ -1,0 +1,47 @@
+Non prenon : Aymeric Simonet
+
+Projet : building_a_simple_network
+Non du réseau : becode network 
+Création d'un : Lan  pour Becode
+Team challenge : Solo  phase 1 et pour la phase 2 avec l'aide du colègue : Robin Gillard
+Mission crée un simple réseau dans les bureaux de Becode  avec une connection internet ves les serveurs de facebook !
+
+Phase 1 
+Materiel du lan :
+1 switch (Cisco 2960 with Cisco IOS version 15.0(2) image lanbasek9 or similar)
+Instaler : 3 PCs (Windows 10 et linux)
+Three Ethernet cables Rj 45 classe 7
+ligne téléphonique fibre 
+
+Materiel requie : Pour une connection internet : modeme/ routeur  4331 IRS
+
+Cordoner de connection sur le réseau :  
+Devices	LAN	IP	Mask (ipconfig /all)
+PC-Robert	Eth	192.168.1.10	255.255.255.0   ( Gateway : 192.168.1.1) (dns 0.0.0.0) Adresse mac : 0002.1674.2623
+PC-Camille	Eth	192.168.1.11	255.255.255.0( Gateway : 192.168.1.1)  (dns 0.0.0.0) Addresse mac : 0060.5CB5.D8A5
+PC-Renaud	Eth	192.168.1.12	255.255.255.0 ( Gateway : 192.168.1.1)   (dns 0.0.0.0) Adresse mac :0001.439A.DB5E
+routeur 2  Adresse Ip Gigabit enternet 0/0 : (192.168.10.2 ) Adresse Ip Gigabit enternet 0/1 ( 192.168.1.1)
+(sub mask :255.255.255.0)
+
+Phase 2 le réseau  Facebook :
+Création d'un second réseau externe type: internet (the one )  pour se connecter un réseau www.facebook.com
+Materiel  requie : Pour crée une connection internet : modeme/ routeur  4331 IRS 
+Modeme/ routeur  4331 IRS (Adresse Ip Gigabit enternet 0/0 : 192.168.10.1) (Gigabit enternet 0/1  :200.1.1.1)
+(Sub mask :255.255.255.0)
+Cable connection : Copper Cross-Over
+
+Materiel et cordonner du  réseau 
+
+instalation : switch 2960 -24 TT
+Instalation : serveur (pt) dns : Adresse IPv4 :(200.1.1.2) Default Gateway  : (200.1.1.1)  Adresse mac :000B.BEA9.46C4
+Instalation : serveur (pt) facebook Adresse Ip : (200.1.1.3) Default Gateway  : (200.1.1.1 )  Adresse mac : 255.255.255.0
+Cable de connection :  Copper Straight Trough
+
+
+
+
+
+
+
+
+
